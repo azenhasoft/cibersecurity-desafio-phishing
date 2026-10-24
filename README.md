@@ -1,21 +1,9 @@
-# Phishing para captura de senhas do Facebook
+# Laboratório de conscientização sobre phishing
 
-### Ferramentas
+Este repositório registra um desafio de cibersegurança da DIO sobre engenharia social e páginas falsas de login.
 
-- Kali Linux
-- setoolkit
+O exercício serve para estudar como uma página que imita um serviço conhecido pode induzir alguém a informar credenciais. Ele deve ser tratado apenas como demonstração em ambiente local e autorizado, com uma página simulada e dados fictícios.
 
-### Configurando o Phishing no Kali Linux
+Não use o exercício contra sites reais, contas de terceiros ou pessoas sem autorização. Não colete nem publique credenciais reais.
 
-- Acesso root: ``` sudo su ```
-- Iniciando o setoolkit: ``` setoolkit ```
-- Tipo de ataque: ``` Social-Engineering Attacks ```
-- Vetor de ataque: ``` Web Site Attack Vectors ```
-- Método de ataque: ```Credential Harvester Attack Method ```
-- Método de ataque: ``` Site Cloner ```
-- Obtendo o endereço da máquina: ``` ifconfig ```
-- URL para clone: http://www.facebook.com
-
-### Resutados
-
-![Alt text](./passwd.png "Optional title")
+O README não exibe a captura de tela do laboratório porque ela mostra campos de usuário e senha. Antes de compartilhar qualquer registro, substitua ou oculte esses dados e outras informações identificáveis.
